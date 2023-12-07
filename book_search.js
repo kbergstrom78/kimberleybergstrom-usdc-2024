@@ -19,7 +19,7 @@
  * @returns {JSON} - Search results.
  * */
 function findSearchTermInBooks(searchTerm, scannedTextObj) {
-    var result = {
+    const result = {
         "SearchTerm": searchTerm,
         "Results": []
     };
